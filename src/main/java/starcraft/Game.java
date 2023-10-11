@@ -1,6 +1,8 @@
 package starcraft;
 
+import starcraft.tribes.Protoss;
 import starcraft.tribes.Terran;
+import starcraft.tribes.Zerg;
 import starcraft.unitType.*;
 
 import java.util.List;
@@ -32,19 +34,19 @@ public class Game {
         int randomNumber = random.nextInt(3);
         Type type = new Terran();
 
-//        switch (randomNumber) {
-//            case 0:
-//                type = new Terran();
-//                break;
+        switch (randomNumber) {
+            case 0:
+                type = new Terran();
+                break;
 
-//            case 1:
-//                type = new Protoss();
-//                break;
-//
-//            case 2:
-//                type = new Zerg();
-//                break;
-//        }
+            case 1:
+                type = new Protoss();
+                break;
+
+            case 2:
+                type = new Zerg();
+                break;
+        }
 
         return type;
     }
