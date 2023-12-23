@@ -2,8 +2,11 @@ package starcraft;
 
 import starcraft.tribes.Protoss;
 import starcraft.tribes.Terran;
+import starcraft.tribes.Type;
 import starcraft.tribes.Zerg;
-import starcraft.unitType.*;
+import starcraft.units.skills.Flyable;
+import starcraft.units.skills.SpecialAttack;
+import starcraft.units.Unit;
 
 import java.util.List;
 import java.util.Random;
@@ -12,7 +15,7 @@ import java.util.stream.IntStream;
 
 public class Game {
     private final Scanner sc = new Scanner(System.in);
-    private final static Type [] tribes = {new Terran(), new Zerg(), new Protoss()};
+    private final static Type[] tribes = {new Terran(), new Zerg(), new Protoss()};
 
     public Game() {
     }
@@ -133,8 +136,10 @@ public class Game {
         int afterAttackingHp = originHp - attackUnit.getPower();
 
         if (afterAttackingHp > 0) {
-            System.out.println("(" + attackUnitNumber + ") " + attackUnit.getName() + "이 " + "(" + targetUnitNumber + ") " + targetUnit.getName() + "을 공격하였습니다.");
-            System.out.println(targetUnit.getName() + "'s changed hp: " + originHp + " -> " + afterAttackingHp);
+            System.out.println("(" + attackUnitNumber + ") " + attackUnit.getName() + "이 "
+                    + "(" + targetUnitNumber + ") " + targetUnit.getName() + "을 공격하였습니다.");
+            System.out.println(targetUnit.getName() + "'s changed hp: " + originHp + " -> "
+                    + afterAttackingHp);
             targetUnit.setHp(afterAttackingHp);
             targetUnits.set(targetUnitNumber - 1, targetUnit);
         } else {

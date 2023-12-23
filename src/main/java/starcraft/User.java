@@ -1,6 +1,6 @@
 package starcraft;
 
-import starcraft.unitType.Type;
+import starcraft.tribes.Type;
 
 public class User {
     private final Type type;

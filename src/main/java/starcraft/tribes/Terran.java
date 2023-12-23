@@ -1,13 +1,11 @@
 package starcraft.tribes;
 
-import starcraft.unitType.Type;
-import starcraft.unitType.Unit;
-import starcraft.terranUnit.*;
+import starcraft.units.terranUnit.*;
 
 public class Terran extends Type {
     public static final int UNIT_SIZE = 5;
-    public static final Unit [] UNIT_SET = {new Marine(), new Tank(), new Goliath()
-            , new Wraith(), new Valkyrie()};
+    public static final Class [] UNIT_SET = {Marine.class, Tank.class,
+            Goliath.class, Wraith.class, Valkyrie.class};
 
     public Terran() {
         super(Terran.UNIT_SIZE, Terran.UNIT_SET);

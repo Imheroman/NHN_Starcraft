@@ -1,18 +1,11 @@
 package starcraft.tribes;
 
-import starcraft.terranUnit.*;
-import starcraft.unitType.Type;
-import starcraft.unitType.Typess;
-import starcraft.unitType.Unit;
-import starcraft.zergUnit.*;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
+import starcraft.units.zergUnit.*;
 
 public class Zerg extends Type {
     public static final int UNIT_SIZE = 8;
-    public static final Unit [] UNIT_SET = {new Zergling(), new Hydralisk(), new Ultralisk(), new Mutalisk(), new Guardian()};
+    public static final Class [] UNIT_SET = {Zergling.class, Hydralisk.class,
+            Ultralisk.class, Mutalisk.class, Guardian.class};
 
     public Zerg() {
         super(Zerg.UNIT_SIZE, Zerg.UNIT_SET);
