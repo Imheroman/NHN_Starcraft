@@ -1,8 +1,8 @@
 package starcraft.protossUnit;
 
-import starcraft.unitType.GroundUnit;
+import starcraft.unitType.Unit;
 
-public class HighTempler extends GroundUnit {
+public class HighTempler extends Unit {
     public HighTempler() {
         super("HighTempler", 10, 2);
     }

@@ -29,7 +29,7 @@ public abstract class Unit {
 
     @Override
     public String toString() {
-        return name + " -> {" +
+        return name + " {" +
                 "hp=" + hp +
                 ", power=" + power +
                 '}';

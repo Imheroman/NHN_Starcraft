@@ -1,8 +1,8 @@
 package starcraft.zergUnit;
 
-import starcraft.unitType.GroundUnit;
+import starcraft.unitType.Unit;
 
-public class Zergling extends GroundUnit {
+public class Zergling extends Unit {
     public Zergling() {
         super("Zergling", 2, 2);
     }

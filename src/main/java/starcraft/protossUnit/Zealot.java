@@ -1,8 +1,8 @@
 package starcraft.protossUnit;
 
-import starcraft.unitType.GroundUnit;
+import starcraft.unitType.Unit;
 
-public class Zealot extends GroundUnit {
+public class Zealot extends Unit {
     public Zealot() {
         super("Zealot", 5, 20);
     }

@@ -1,9 +1,9 @@
 package starcraft.zergUnit;
 
-import starcraft.unitType.GroundUnit;
 import starcraft.unitType.SpecialAttack;
+import starcraft.unitType.Unit;
 
-public class Hydralisk extends GroundUnit implements SpecialAttack {
+public class Hydralisk extends Unit implements SpecialAttack {
     public Hydralisk() {
         super("Hydralisk", 3, 7);
     }

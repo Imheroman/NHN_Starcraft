@@ -12,6 +12,7 @@ import java.util.stream.IntStream;
 
 public class Game {
     private final Scanner sc = new Scanner(System.in);
+    private final static Type [] tribes = {new Terran(), new Zerg(), new Protoss()};
 
     public Game() {
     }
@@ -32,21 +33,7 @@ public class Game {
     private Type getRandomType() {
         Random random = new Random();
         int randomNumber = random.nextInt(3);
-        Type type = new Terran();
-
-        switch (randomNumber) {
-            case 0:
-                type = new Terran();
-                break;
-
-            case 1:
-                type = new Protoss();
-                break;
-
-            case 2:
-                type = new Zerg();
-                break;
-        }
+        Type type = tribes[randomNumber];
 
         return type;
     }
@@ -64,7 +51,7 @@ public class Game {
                 System.out.println("------------------- User Turn -------------------");
                 try {
                     attackTime(userUnits, computerUnits, userTurn);
-                } catch (IllegalAccessException e) {
+                } catch (RuntimeException e) {
                     System.out.println(e.getMessage() + " 다시 공격을 시작합니다.");
                     continue;
                 }
@@ -74,7 +61,7 @@ public class Game {
                 System.out.println("------------------- Computer Turn -------------------");
                 try {
                     attackTime(computerUnits, userUnits, userTurn);
-                } catch (IllegalAccessException e) {
+                } catch (RuntimeException e) {
                     System.out.println(e.getMessage() + " Computer의 turn을 종료합니다.");
                 }
 
@@ -103,14 +90,15 @@ public class Game {
 //            index++;
 //        }
         IntStream.rangeClosed(1, units.size())
-                .forEach((index) -> {
-                    System.out.println("(" + index + ") " + units.get(index - 1));
-                });
+                .forEach((index) ->
+                    System.out.println("(" + index + ") " + units.get(index - 1))
+                );
     }
 
-    private void attackTime(List<Unit> attackUnits, List<Unit> targetUnits, boolean isUserTurn) throws IllegalAccessException {
+    private void attackTime(List<Unit> attackUnits, List<Unit> targetUnits, boolean isUserTurn) throws RuntimeException {
         int attackUnitNumber;
         int targetUnitNumber;
+        Random random = new Random();
 
         if (isUserTurn) { // set attack number and target number when User turn
             System.out.print("input attack unit's number: ");
@@ -128,16 +116,16 @@ public class Game {
                 throw new IllegalArgumentException("Wrong index :(");
             }
         } else { // set attack number and target number when Computer turn
-            attackUnitNumber = new Random().nextInt(attackUnits.size()) + 1;
-            targetUnitNumber = new Random().nextInt(targetUnits.size()) + 1;
+            attackUnitNumber = random.nextInt(attackUnits.size()) + 1;
+            targetUnitNumber = random.nextInt(targetUnits.size()) + 1;
         }
 
         Unit attackUnit = attackUnits.get(attackUnitNumber - 1);
         Unit targetUnit = targetUnits.get(targetUnitNumber - 1);
 
-        if (attackUnit instanceof GroundUnit && !(attackUnit instanceof SpecialAttack)) {
-            if (targetUnit instanceof FlyUnit) {
-                throw new IllegalAccessException("지상 유닛은 공중 유닛을 공격할 수 없습니다.");
+        if (!(attackUnit instanceof SpecialAttack && attackUnit instanceof Flyable)) {
+            if (targetUnit instanceof Flyable) {
+                throw new RuntimeException("지상 유닛은 공중 유닛을 공격할 수 없습니다.");
             }
         }
 

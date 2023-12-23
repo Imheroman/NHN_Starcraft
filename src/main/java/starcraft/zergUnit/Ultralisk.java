@@ -1,8 +1,8 @@
 package starcraft.zergUnit;
 
-import starcraft.unitType.GroundUnit;
+import starcraft.unitType.Unit;
 
-public class Ultralisk extends GroundUnit {
+public class Ultralisk extends Unit {
     public Ultralisk() {
         super("Ultralisk", 5, 15);
     }
