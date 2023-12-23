@@ -1,5 +1,6 @@
 package starcraft.unitType;
 
+
 public abstract class Unit {
     private int hp;
     private final int power;

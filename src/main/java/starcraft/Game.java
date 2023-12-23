@@ -123,7 +123,7 @@ public class Game {
         Unit attackUnit = attackUnits.get(attackUnitNumber - 1);
         Unit targetUnit = targetUnits.get(targetUnitNumber - 1);
 
-        if (!(attackUnit instanceof SpecialAttack && attackUnit instanceof Flyable)) {
+        if (!(attackUnit instanceof SpecialAttack || attackUnit instanceof Flyable)) {
             if (targetUnit instanceof Flyable) {
                 throw new RuntimeException("지상 유닛은 공중 유닛을 공격할 수 없습니다.");
             }
