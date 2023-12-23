@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f7eab08f-650a-41f4-8654-891f7c160890" name="Changes" comment="version2 last commit">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0af0c0205fdef8945ec0fae82c4ca617ce937fe1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/127431bd8f946b8aa2b32474c4eef3001c6d6803" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/127431bd8f946b8aa2b32474c4eef3001c6d6803" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/16e7362e30a823d8bd525e04c9dcf7afffb8e6be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/231ac8011466b6a137727c665d9086e1785a9841" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a96518a9af89a27f2a0fcda8f6b8270b87cbfd3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/328608c86da0fad11b412d3ea281994191831021" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/328608c86da0fad11b412d3ea281994191831021" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/32a13df25cd0fe87675a89b2b2d25e47d781af1d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/32a13df25cd0fe87675a89b2b2d25e47d781af1d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/34ca224d3cf24f86d0200fb9190f3c3c1d3b4760" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/34ca224d3cf24f86d0200fb9190f3c3c1d3b4760" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/34e8f384294f3af6dc29b0891dd0bf010078a0d2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/34e8f384294f3af6dc29b0891dd0bf010078a0d2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/479e961f75b83f3e15a2118ed36a07d0945135c1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/479e961f75b83f3e15a2118ed36a07d0945135c1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d9ed42a8454ffc755f1578f8c0fb0eaee98cf0e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5ffcc945036aa3cfa79d52a73351ba0e411fdcd5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5ffcc945036aa3cfa79d52a73351ba0e411fdcd5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/6340171cfff33b9be745895db54408578216f0cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/1/91681603408982c82ba3fcf40351366d2b52df07" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9b34f6296aea7c9b36cc2fa302c924dd09ef58dd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9b34f6296aea7c9b36cc2fa302c924dd09ef58dd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aacd4e96af34c6285900f6609f225a91144ce2a2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/abd6d38837e90ded015d7ce0f0593287d1ce6b26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d16f92a8b909b4fd8a4ec18c0dc7b1c396ecb29c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d16f92a8b909b4fd8a4ec18c0dc7b1c396ecb29c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e09f2eafe654ede9f88f4d96f6f7957197511dc3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e6d81baf4e95f7dfa4cb78f636c7f62df7ed60b7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e6d81baf4e95f7dfa4cb78f636c7f62df7ed60b7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/5/f563faa92895021ed4635e59306a645c56fc20a2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/a/0af0c0205fdef8945ec0fae82c4ca617ce937fe1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/d/0dc5dcb6f14c1973061316e60a9f2eb56327e21e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/2/127431bd8f946b8aa2b32474c4eef3001c6d6803" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/6/16e7362e30a823d8bd525e04c9dcf7afffb8e6be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/3/231ac8011466b6a137727c665d9086e1785a9841" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/a/2a96518a9af89a27f2a0fcda8f6b8270b87cbfd3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/2/328608c86da0fad11b412d3ea281994191831021" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/2/32a13df25cd0fe87675a89b2b2d25e47d781af1d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/4/34ca224d3cf24f86d0200fb9190f3c3c1d3b4760" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/4/34e8f384294f3af6dc29b0891dd0bf010078a0d2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/7/479e961f75b83f3e15a2118ed36a07d0945135c1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/d/4d9ed42a8454ffc755f1578f8c0fb0eaee98cf0e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/e/4e4666cae8ecf508cd544886688e6de648478ebe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/f/5ffcc945036aa3cfa79d52a73351ba0e411fdcd5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/3/6340171cfff33b9be745895db54408578216f0cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/e/6e7045c846dc1ec14d4fe676a402dde15901f417" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/e/6ed17a35c3129dfbb4f58502bedb4107b3419eb2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/1/91681603408982c82ba3fcf40351366d2b52df07" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/6/964c742e2f8de516da382159555e5d5a041be6a4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/7/97088f9172e2c5aadd07fca3d76729e0f9dc25ea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/b/9b34f6296aea7c9b36cc2fa302c924dd09ef58dd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/a/aacd4e96af34c6285900f6609f225a91144ce2a2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/b/abd6d38837e90ded015d7ce0f0593287d1ce6b26" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/1/d16f92a8b909b4fd8a4ec18c0dc7b1c396ecb29c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/0/e09f2eafe654ede9f88f4d96f6f7957197511dc3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/6/e6d81baf4e95f7dfa4cb78f636c7f62df7ed60b7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/5/f563faa92895021ed4635e59306a645c56fc20a2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/starcraft/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/starcraft/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/starcraft/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/starcraft/tribes/Protoss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/starcraft/tribes/Terran.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/starcraft/tribes/Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/starcraft/tribes/Zerg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/starcraft/units/Unit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/starcraft/units/protossUnit/Corsair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/starcraft/units/protossUnit/Dragoon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/starcraft/units/protossUnit/HighTempler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/starcraft/units/protossUnit/Scout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/starcraft/units/protossUnit/Zealot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/starcraft/units/skills/Flyable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/starcraft/units/skills/SpecialAttack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/starcraft/units/terranUnit/Goliath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/starcraft/units/terranUnit/Marine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/starcraft/units/terranUnit/Tank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/starcraft/units/terranUnit/Valkyrie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/starcraft/units/terranUnit/Wraith.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/starcraft/units/zergUnit/Guardian.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/starcraft/units/zergUnit/Hydralisk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/starcraft/units/zergUnit/Mutalisk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/starcraft/units/zergUnit/Ultralisk.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/starcraft/units/zergUnit/Zergling.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Imheroman&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f7610f80-ed9b-4a9f-be06-0a2c41251fde" />
+        <option name="url" value="https://github.com/Imheroman/NHN_Starcraft.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2WUff3DbuBzjRwFdwU0RcDD3qyY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "Merging master",
+    "last_opened_file_path": "/Users/nyeong/Desktop/codeDir/starcraftDir",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="starcraft.Main" />
+      <module name="starcraft" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="starcraft.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7eab08f-650a-41f4-8654-891f7c160890" name="Changes" comment="" />
+      <created>1696792180915</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696792180915</updated>
+      <workItem from="1696792254515" duration="1180000" />
+      <workItem from="1696984107968" duration="1576000" />
+      <workItem from="1696998656520" duration="1843000" />
+      <workItem from="1703218439816" duration="6292000" />
+      <workItem from="1703315470934" duration="9223000" />
+      <workItem from="1703325404412" duration="71000" />
+      <workItem from="1703325574932" duration="548000" />
+    </task>
+    <task id="LOCAL-00001" summary="Zerg, Protoss unit add">
+      <option name="closed" value="true" />
+      <created>1696999444420</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696999444420</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Zerg, Protoss unit add">
+      <option name="closed" value="true" />
+      <created>1697008010953</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697008010953</updated>
+    </task>
+    <task id="LOCAL-00003" summary="git .ignore modified">
+      <option name="closed" value="true" />
+      <created>1697008231232</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697008231232</updated>
+    </task>
+    <task id="LOCAL-00004" summary="version2 refactoring duplicated code">
+      <option name="closed" value="true" />
+      <created>1703317899958</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703317899958</updated>
+    </task>
+    <task id="LOCAL-00005" summary="version2 refactoring duplicated code">
+      <option name="closed" value="true" />
+      <created>1703317960207</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703317960207</updated>
+    </task>
+    <task id="LOCAL-00006" summary="version2 refactoring duplicated code too">
+      <option name="closed" value="true" />
+      <created>1703317976853</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703317976853</updated>
+    </task>
+    <task id="LOCAL-00007" summary="attack update">
+      <option name="closed" value="true" />
+      <created>1703319314005</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703319314005</updated>
+    </task>
+    <task id="LOCAL-00008" summary="일단 마지막 업데이트 완료">
+      <option name="closed" value="true" />
+      <created>1703325469546</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703325469546</updated>
+    </task>
+    <task id="LOCAL-00009" summary="version2 last commit">
+      <option name="closed" value="true" />
+      <created>1703325953223</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1703325953224</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Zerg, Protoss unit add" />
+    <MESSAGE value="git .ignore modified" />
+    <MESSAGE value="version2 refactoring duplicated code" />
+    <MESSAGE value="version2 refactoring duplicated code too" />
+    <MESSAGE value="attack update" />
+    <MESSAGE value="일단 마지막 업데이트 완료" />
+    <MESSAGE value="version2 last commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="version2 last commit" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
+  </component>
+</project>
